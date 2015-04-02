@@ -3,7 +3,7 @@ Create Game plan or schedule using this script
 Author : Mayank Bhardwaj
 
 Version 1.1.0
-Full source at https://github.com/mayankbhardwaj/chosen
+Full source at https://github.com/mayankbhardwaj/DataRelation/blob/mayankbhardwaj-patch-1/GamePlan.js
 
 format data like below :
 var vAllTable = { "1": { data: ['ABCVFGDJKJS', '1','1','1'] },
