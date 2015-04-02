@@ -1,3 +1,32 @@
+/*!
+Create Game plan or schedule using this script
+Author : Mayank Bhardwaj
+
+Version 1.1.0
+Full source at https://github.com/mayankbhardwaj/chosen
+
+format data like below :
+var vAllTable = { "1": { data: ['ABCVFGDJKJS', '1','1','1'] },
+    "2": {  data: ['HIJ'] },
+    "3": {  data: ['LMP', '1'] },
+    "4": {  data: ['RST'] },
+    "5": {  data: ['VWX'] },
+    "6": {  data: ['ZAB', '1','1'] },
+    "7": { data: ['DEF', '1'] },
+    "8": { data: ['VWX'] },
+    "9": { data: ['ZABDS', '1','1'] },
+    "10": { data: ['DEFDG'] },
+    "11": { data: ['VWXTY'] },
+    "12": { data: ['ZABBVH', '1'] },
+    "13": { data: ['DEFJG', '1'] },
+    "14": { data: ['VWXBC'] },
+    "15": { data: ['ZABSK ', '1','1','1','1'] },
+    "16": { data: ['DEFBV'] }
+};
+
+and call drawTables function:
+drawTables(vAllTable, 20, 50, 25, 90);
+*/
 var vArrTablePos = [[]];
 var vtblCount = 0;
 var vRow = 0;
